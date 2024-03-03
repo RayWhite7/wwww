@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>FORMS</title>
+    <style>
+        h2 {
+            margin: 40px;
+            text-align: center;
+            color: #f74f10;
+            border-radius: 10px;
+        }
+        .form-container {
+            margin: 20px auto;
+            width: 50%;
+            background-color: rgb(23, 23, 23);
+            padding: 50px;
+            border-radius: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #f74f10;
+            color: black;
+            cursor: pointer;
+        }
+        input[type="reset"] {
+            background-color: #f74f10;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <marquee style="color:white;" behaviour="scroll" direction="center"><h4>WELCOME TO OUR OUTLETS!</h4></marquee>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="https://github.com/ritesh-0309/responsive_shoes_store/blob/main/NikeLogoPNGImage.png?raw=true" alt="">
+            </div>
+            <div class="links">
+                <a href="home.html">HOME</a>
+                <a href="product.html">PRODUCT</a>
+                <a href="promotion.html">PROMOTION</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="forms.html">FORMS</a>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="forms">
+        <h2>REGISTRATION MEMBER</h2>
+        <div class="form-container">
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Address">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>      
+</body>
+</html>
